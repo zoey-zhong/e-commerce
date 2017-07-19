@@ -1,0 +1,390 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg-index.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 98%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header {
+	height: 8%;
+	width: 100%;
+	padding: 2% 10%;
+	margin-bottom: 1%;
+}
+
+header>div {
+	float: left;
+	line-height: 50%;
+}
+
+header>div:nth-child(2) {
+	width: 45%;
+	font-size: 20px;
+	padding-left: 6.8%;
+	padding-right: 6.3%;
+}
+
+.section1 {
+	height: 50%;
+	width: 100%;
+}
+
+.map {
+	width: 58%;
+	height: 100%;
+	border-radius: 4px;
+	background: #4C5864;
+	float: left;
+	color: white;
+	position: relative;
+}
+
+.map div:nth-child(2) {
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	left: 5%;
+	bottom: 14%;
+	z-index: 1000;
+}
+
+.map_detail {
+	width: 100%;
+	height: 100%;
+}
+
+.chart_right {
+	width: 39.6%;
+	height: 100%;
+	float: left;
+	margin-left: 2.3%;
+}
+
+.chart_right>div {
+	width: 100%;
+	height: 48%;
+	background: #4C5864;
+	border-radius: 4px;
+	display: block;
+}
+
+.chart_top {
+	margin-bottom: 2%;
+}
+
+.top_bar {
+	width: 100%;
+	height: 100%;
+}
+
+.chart_bottom {
+	position: relative;
+}
+
+.chart_title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 82%;
+	height: 20%;
+	padding-top: 1%;
+	border-bottom: 1px solid white;
+	margin-left: 12%;
+	font-size: 12px;
+	z-index: 1000;
+}
+
+.chart_title>p {
+	float: left;
+	margin-right: 130px;
+}
+
+.chart_title>a {
+	float: left;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	color: #000000;
+	margin-top: 4px;
+	margin-right: 2px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.chart_title>a:hover {
+	cursor: pointer;
+}
+
+.chart_title>a:nth-child(2) {
+	background: #ED6F0E;
+}
+
+.chart_title>a:nth-child(3) {
+	background: #84BCC4;
+}
+
+.chart_title>a:nth-child(4) {
+	background: white;
+}
+
+.bottom_line {
+	width: 95%;
+	height: 100%;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bottom_line1 {
+	width: 95%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bottom_line2 {
+	width: 95%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/***********************se2*********************************/
+
+.section2 {
+	height: 32%;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.section2>div {
+	float: left;
+}
+
+.left_pie {
+	width: 26.6%;
+	height: 100%;
+	background: #4C5864;
+	border-radius: 4px;
+}
+
+.lpie {
+	width: 100%;
+	height: 206px;
+}
+
+.center_chart {
+	width: 30%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.center_chart>div {
+	width: 46%;
+	height: 100%;
+	float: left;
+	background: #4C5864;
+	border-radius: 4px;
+	position: relative;
+}
+
+.center_chart_left {
+	margin-right: 6%;
+}
+
+.center_chart>div p {
+	text-align: center;
+	padding: 3px;
+}
+
+.center_chart>div span {
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-bottom-color: red;
+	float: right;
+	margin-right: 6px;
+	margin-bottom: 4px;
+}
+
+.center_chart>div i {
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-top-color: green;
+	float: right;
+	margin-right: 6px;
+	margin-top: 8px;
+}
+
+.center_chart>div table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	padding-left: 2px;
+}
+
+.center_chart>div table tr:nth-child(1) {
+	height: 15%;
+	width: 100%;
+	display: inline-block;
+	border: none;
+}
+
+.center_chart>div table tr:nth-child(2) {
+	border-left: 6px solid #E23A0F;
+}
+
+.center_chart>div table tr:nth-child(1) th:nth-child(1) {
+	background: #71A5BD;
+	width: 27%;
+	height: 100%;
+	text-align: center;
+	border-left: 6px solid #AAABAB;
+}
+
+.center_chart>div table tr:nth-child(1) th:nth-child(2) {
+	background: #C093A7;
+	width: 30%;
+	text-align: center;
+}
+
+.center_chart>div table tr:nth-child(1) th:nth-child(3) {
+	background: #B54C7D;
+	width: 30%;
+	text-align: center;
+}
+
+.center_chart>div table tr:nth-child(1) th:nth-child(4) {
+	background: #B54C7D;
+	text-align: center;
+	width: 10%;
+	border-left: 1px solid gainsboro;
+}
+
+.center_chart>div tr {
+	width: 100%;
+	height: 10%;
+	font-size: 12px;
+	background: dimgray;
+	margin: 5px 0;
+	display: block;
+	border-left: 6px solid #AAABAB;
+}
+
+.center_chart>div td {
+	width: 34%;
+	height: 20%;
+	font-size: 12px;
+	background: #5D6B6E;
+}
+
+.right_trade {
+	width: 39.2%;
+	height: 206px;
+}
+
+.trade_icon {
+	position: absolute;
+	top: 0;
+	left: 8%;
+	width: 20px;
+	height: 20px;
+	background: white;
+	text-align: center;
+}
+
+.trade_icon:before {
+	width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-top: 11px solid white;
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: -1px;
+}
+
+.trade_icon img {
+	padding-top: 25%;
+}
+
+.right_trade>div {
+	float: left;
+	width: 47.5%;
+	height: 46%;
+	margin-bottom: 3%;
+	background: #4C5864;
+	border-radius: 4px;
+	float: left;
+	padding: 5px 0 5px 40px;
+	font-size: 12px;
+	position: relative;
+}
+
+.right_trade>div:nth-child(1) {
+	margin-right: 4%;
+}
+
+.right_trade>div:nth-child(3) {
+	margin-right: 4%;
+}
+
+.right_trade>div span {
+	color: red;
+}
+
+.right_trade>div i {
+	color: greenyellow;
+}
+
+.right_trade>div p:nth-child(1) {
+	font-size: 14px;
+	width: 65%;
+	text-indent: 8%;
+	border-bottom: 1px solid white;
+	margin-bottom: 1%;
+}
+
+
+/***********************footer*********************************/
+
+footer {
+	height: 6.7%;
+	line-height: 38px;
+	font-size: 12px;
+}
+
+footer ul {
+	height: 100%;
+	width: 63%;
+	margin: 0 auto;
+}
+
+footer ul li {
+	float: left;
+	margin-right: 1%;
+}
